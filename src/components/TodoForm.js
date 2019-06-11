@@ -26,7 +26,7 @@ export default class TodoForm extends React.Component {
 
   render() {
     return (
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div>
         <form onSubmit={this.handleSubmit}>
           <input
             name="text"
